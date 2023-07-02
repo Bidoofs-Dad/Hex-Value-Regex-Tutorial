@@ -1,6 +1,6 @@
-# Title (replace with your title)
+# Hex Value Regex Tutorial!
 
-Introductory paragraph (replace this with your text)
+Hello! This short tutorial will help you understand more about how the Rexex function (as seen below) works to verify that what you have typed, is actually a proper Hex value! (such as #123456 is a dark shade of cyan-blue!)
 
 ## Summary
 
