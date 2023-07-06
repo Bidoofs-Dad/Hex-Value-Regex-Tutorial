@@ -1,8 +1,8 @@
-# Hex Value Regex Tutorial!
+# <span style="color:#9bcd9b">Hex Value Regex Tutorial!<span>
 
 Hello! This short tutorial will help you understand more about how the Regex function (as seen below) works to verify that what you have typed, is actually a proper Hex value! (such as #123456 is a dark shade of cyan-blue!)
 
-## Summary
+## <span style="color:#9bcd9b">Summary<span>
 
 Do you want to see what the expression looks like? Look no further! The expression below checks to make sure you have a proper hex value input!
 
@@ -10,7 +10,7 @@ Do you want to see what the expression looks like? Look no further! The expressi
 
 Pretty cool huh? Let's jump in and learn how it works!
 
-## Table of Contents
+## <span style="color:#9bcd9b">Table of Contents<span>
 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
@@ -21,7 +21,7 @@ Pretty cool huh? Let's jump in and learn how it works!
 - [Flags](#flags)
 - [Character Escapes](#character-escapes)
 
-## Regex Components
+## <span style="color:#9bcd9b">Regex Components<span>
 
 A regex is considered a literal, so the pattern must be wrapped in slash characters (/).
 
@@ -91,6 +91,10 @@ They are both almost identical, but it signifies that it is either looking for a
 
 /^#?([a-f0-9]{6}|[a-f0-9]{3})$/
 
-## Author
+## <span style="color:#9bcd9b">Author<span>
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+My name is Zane Werle and I am currently enrolled in the UVM's Full Stack Coding Bootcamp! I love spending time with my wife, cats, skateboarding, watching movies and playing video games! (my favorite genres for both movies and games is horror!)
+
+Feel free to check out my GitHub below!
+
+[My Github Profile!](https://github.com/Bidoofs-Dad)
