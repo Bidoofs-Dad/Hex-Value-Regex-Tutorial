@@ -16,10 +16,7 @@ Pretty cool huh? Let's jump in and learn how it works!
 - [Quantifiers](#quantifiers)
 - [Grouping Constructs](#grouping-constructs)
 - [Bracket Expressions](#bracket-expressions)
-- [Character Classes](#character-classes)
 - [The OR Operator](#the-or-operator)
-- [Flags](#flags)
-- [Character Escapes](#character-escapes)
 
 ## <span style="color:#9bcd9b">Regex Components<span>
 
@@ -69,9 +66,6 @@ Utilizing the brackets as a subexpression as detailed above, we make sure that t
 
 In our case, each bracket is making sure that our input only includes letters between a and f, as well as numbers between 0 and 9!
 
-## <span style="color:#9bcd9b">Character Classes</span>
-
-/^#?([a-f0-9]{6}|[a-f0-9]{3})$/
 
 ## <span style="color:#9bcd9b">The OR Operator</span>
 
@@ -82,14 +76,6 @@ The OR Operator is the fancy little | symbol! It signifies that you can have thi
 In our case it is saying `[a-f0-9]{6}` OR `[a-f0-9]{3}`
 
 They are both almost identical, but it signifies that it is either looking for a string of either 3 or 6 characters that fall within the proper characters as listed in the above section!
-
-## <span style="color:#9bcd9b">Flags</span>
-
-/^#?([a-f0-9]{6}|[a-f0-9]{3})$/
-
-## <span style="color:#9bcd9b">Character Escapes</span>
-
-/^#?([a-f0-9]{6}|[a-f0-9]{3})$/
 
 ## <span style="color:#9bcd9b">Author<span>
 
