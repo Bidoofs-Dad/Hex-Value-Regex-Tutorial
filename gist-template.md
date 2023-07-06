@@ -63,7 +63,11 @@ In this case, the one pair of parenthesis wraps the entirety of what can appear 
 
 ## <span style="color:#9bcd9b">Bracket Expressions</span>
 
-/^#?([a-f0-9]{6}|[a-f0-9]{3})$/
+Utilizing the brackets as a subexpression as detailed above, we make sure that the input matches the characters enclosed inside of them!
+
+`/^#?(`<span style="color:#6fcb9f; font-weight: bold">[a-f0-9]</span>`{6}`|<span style="color:#6fcb9f; font-weight: bold">[a-f0-9]</span>`{3})$/`
+
+In our case, each bracket is making sure that our input only includes letters between a and f, as well as numbers between 0 and 9!
 
 ## <span style="color:#9bcd9b">Character Classes</span>
 
@@ -71,7 +75,13 @@ In this case, the one pair of parenthesis wraps the entirety of what can appear 
 
 ## <span style="color:#9bcd9b">The OR Operator</span>
 
-/^#?([a-f0-9]{6}|[a-f0-9]{3})$/
+The OR Operator is the fancy little | symbol! It signifies that you can have this set of input OR this set of input.
+
+`/^#?([a-f0-9]{6}`<span style="color:#6fcb9f; font-weight: bold">|</span>`[a-f0-9]{3})$/`
+
+In our case it is saying `[a-f0-9]{6}` OR `[a-f0-9]{3}`
+
+They are both almost identical, but it signifies that it is either looking for a string of either 3 or 6 characters that fall within the proper characters as listed in the above section!
 
 ## <span style="color:#9bcd9b">Flags</span>
 
